@@ -1,98 +1,86 @@
-body, html
-{
-    color: black;
-    background-color: #F3F3F3;
-    height: 100%;
-    font-size: 62.5%;
-}
-#logo
-{
-    position: relative;
-    left: 32.1%;
 
-}
-#options
-{
-    position: absolute;
-    left: -778px;
-    width: 700px;
-}
+    #logo {
+        position: relative;
+        left: 32.1%;
 
-#namePage
-{
+    }
 
-}
+    #options {
+        position: absolute;
+        left: -778px;
+        width: 700px;
+    }
 
-a
-{
-    text-decoration: none;
-}
+    #namePage {
 
-input[type=button], input[type=submit], input[type=reset]
-{
-    border-color: white;
-    color: #F3F3F3;
-    padding: 15px 30px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    position: absolute;
-    left: 44.8%;
-    top: 650px;
-    font-size: 25px;
-    background-color: #5273cb;
-}
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+        border-color: white;
+        color: #F3F3F3;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        position: absolute;
+        left: 44.8%;
+        top: 650px;
+        font-size: 25px;
+        background-color: #5273cb;
+    }
 
 
+    img {
+        border-radius: 3px;
+        max-width: 100%;
+    }
 
-img
-{
-    border-radius: 8px;
-    max-width: 100%;
-}
+    #Port {
+        position: relative;
+        top: -100px;
+    }
 
-#Port
-{
-    position: relative;
-    top: 100px;
-}
+    #Lorenzo {
+        position: relative;
+        top: -130px;
+    }
 
-#Lorenzo
-{
-    position: relative;
-    top: 70px;
-}
+    #FotParque {
+        position: relative;
+        top: -55px;
+    }
 
-#FotParque
-{
-    position: relative;
-    top: 50px;
-}
-@media screen and (max-height: 1024px)
-{
+    #park
+    {
+        position: relative;
+        top: -100px;
+    }
     #topnav {
         overflow: hidden;
-        background-color: #5273cb;
+        background-color: rgba(0, 0, 0, .5);
         position: absolute;
 
         left: 0;
 
-        top: 110px;
+        top: 550px;
         height: 70px;
         width: 100%;
-
+        z-index: 9999;
 
     }
 
-    #topnav.fixed
-    {
+    #topnav.fixed {
         position: fixed;
         z-index: 999;
         top: 0;
     }
 
-    #topnav a, v{
+    #topnav a, v {
         float: left;
         display: block;
         color: white;
@@ -108,259 +96,283 @@ img
         color: #5273cb;
 
     }
-    .open
-    {
+
+    .open {
         display: none;
 
     }
-}
 
 
-@media screen and (max-width: 600px)
-{
-    #topnav {
-        height: 100%; /* 100% Full-height */
-        width: 0; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        background-color: #111; /* Black*/
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    .lorem {
+
+        position: relative;
+        left: 17%;
+        font-size: 2.49em;
+
 
     }
 
-    #topnav.fixed
-    {
-        position: fixed;
+    #tab1 {
+        position: relative;
+        top: -80px;
+    }
+
+    #tab2 {
+        position: relative;
+        top: 80px;
+    }
+
+    #banner {
         z-index: 999;
-        top: 0;
-    }
-
-    #topnav a, v{
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-
-    }
-
-    #topnav a:hover {
-        background-color: white;
-        color: #5273cb;
-
-    }
-
-    .open
-    {
-        display: block;
         overflow: hidden;
-        background-color: #5273cb;
+        padding: 55em 0em;
+        /*width: 1903px; */
+        position: relative;
+        top: -119.99px;
+        left: -8px;
+        background: url(photo.jpg) no-repeat center;
+        /*background-color: black;*/
+        width: 100.85%;
+        height: 7%;
+        background-size: cover;
+
+    }
+
+    #Infos {
+        overflow: hidden;
+        padding: 21em 0em;
+        /*width: 1903px; */
+        position: absolute;
+        top: -120px;
+        left: 50%;
+        /*background: url(photo.jpg) no-repeat center; */
+        background-color: #F3F3F3;
+        height: 16%;
+        width: 50%;
+        background-size: cover;
+
+    }
+
+    #Infos h1 {
+        position: relative;
+        left: 12%;
+        width: 85%;
+        font-size: 45px;
+
+    }
+
+    #Infos h2 {
+        position: relative;
+        left: 22%;
+        width: 85%;
+        font-size: 45px;
+        top: -30px;
+    }
+
+    #Infos h3 {
+        position: relative;
+        left: 37%;
+        width: 85%;
+        font-size: 45px;
+        top: -70px;
+
+    }
+
+
+    #header-wrapper {
+        overflow: hidden;
+        padding: 2em 0em 0em 0em;
+    }
+
+
+    /*********************************************************************************/
+    /* Header                                                                        */
+    /*********************************************************************************/
+    #header-wrapper {
+        overflow: hidden;
+        padding: 0em 0em 0em 0em;
+        top: -10px;
+        background-color: black;
+        width: 1903px;
+        position: relative;
+        left: -8px;
+    }
+
+    #header {
+    }
+
+    /*********************************************************************************/
+    /* Logo                                                                          */
+    /*********************************************************************************/
+    #logo {
+    }
+
+    #logo h1 {
+        display: inline-block;
+        margin-bottom: 0.20em;
+        padding: 0px 0px;
+        font-size: 8.9em;
+        position: relative;
+        left: -400px;
+        top: -15px;
+    }
+
+    #logo a {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    #logo span {
+        text-transform: uppercase;
+        font-size: 0.90em;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    h3 {
+
+    }
+
+    h1 {
+        position: relative;
+        left: 15%;
+        width: 85%;
+        font-size: 45px;
+        top: 15px;
+
+    }
+
+    h2 {
+        position: relative;
+        left: 17%;
+        width: 83%;
+        bottom: 20px;
+        font-size: 30px;
+    }
+
+
+    footer {
+        background-color: rgba(0, 0, 0, .9);
+        height: 270px;
+        width: 100.9%;
+        position: relative;
+        left: -0.5%;
+        top: 10%;
+    }
+
+    footer h1 {
+        position: relative;
+        left: 15%;
+        width: 85%;
+        font-size: 45px;
+        top: 15px;
+
+    }
+
+    footer h2 {
+        position: relative;
+        left: 10%;
+        width: 83%;
+        top: 15px;
+        font-size: 30px;
+        color: #afafaf;
+    }
+
+
+    .geral
+    {
+        height: 100%;
         position: absolute;
 
-        left: 0;
-        font-size: 8.0em;
-        top: 108px;
-        height: 70px;
-        width: 100%;
+
+    }
+
+    .nomePage
+    {
+        width: 380px;
+        height: 150px;
+        border: 2px solid white;
+        position: absolute;
+        top: 250px;
+        left: 40.5%;
+        z-index: 999;
+        color: white;
+    }
+
+    .nomePage h1
+    {
+        font-size: 40px;
+        position: relative;
+        top: 0px;
+        left: 10%;
+
+    }
+    .nomePage h3
+    {
+        font-size: 20px;
+        position: relative;
+        top: -15px;
+        left: 30%;
+    }
+
+    .Lorenzo1
+    {
+        position: relative;
+        left: 17%;
+        top: -100px;
+    }
+
+    .Lorenzo2
+    {
+        position: relative;
+        left: 25%;
+        top: -100px;
+    }
+
+    .Lorenzo3
+    {
+        position: relative;
+        left: 17%;
+        top: -70px;
+    }
+
+    .Lorenzo4
+    {
+        position: relative;
+        left: 25%;
+        top: -70px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .Parque1
+    {
+        position: relative;
+        left: 17%;
+        top: -20px;
+    }
+
+    .Parque2
+    {
+        position: relative;
+        left: 25%;
+        top: -20px;
+    }
+
+    .Parque3
+    {
+        position: relative;
+        left: 17%;
+        top: 10px;
+    }
+
+    .Parque4
+    {
+        position: relative;
+        left: 25%;
+        top: 10px;
+        width: 500px;
+        height: 500px;
     }
 
 
-}
-
-
-
-.lorem
-{
-
-    position: relative;
-    left: 17%;
-    top: 70px;
-    font-size: 2.49em;
-
-
-}
-#banner
-{
-    overflow: hidden;
-    padding: 55em 0em;
-    /*width: 1903px; */
-    position: relative;
-    top: 59.9px;
-    left: -8px;
-    background: url(edit.png) no-repeat center;
-    /*background-color: black;*/
-    width: 50.47%;
-    height: 13%;
-    background-size: cover;
-
-}
-
-#Infos
-{
-    overflow: hidden;
-    padding: 21em 0em;
-    /*width: 1903px; */
-    position: absolute;
-    top: 320px;
-    left: 50%;
-    /*background: url(photo.jpg) no-repeat center; */
-    background-color: #F3F3F3;
-    height: 16%;
-    width: 50%;
-    background-size: cover;
-
-}
-
-#Infos 	h1
-{
-    position: relative;
-    left: 12%;
-    width: 85%;
-    font-size: 45px;
-
-}
-
-#Infos 	h2
-{
-    position: relative;
-    left: 22%;
-    width: 85%;
-    font-size: 45px;
-    top: -30px;
-}
-
-#Infos 	h3
-{
-    position: relative;
-    left: 37%;
-    width: 85%;
-    font-size: 45px;
-    top: -70px;
-
-}
-
-
-#header-wrapper
-{
-    overflow: hidden;
-    padding: 2em 0em 0em 0em;
-}
-
-
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-#header-wrapper
-{
-    overflow: hidden;
-    padding: 0em 0em 0em 0em;
-    top: -10px;
-    background-color: black;
-    width: 1903px;
-    position: relative;
-    left: -8px;
-}
-
-#header
-{
-}
-
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
-
-#logo
-{
-}
-
-#logo h1
-{
-    display: inline-block;
-    margin-bottom: 0.20em;
-    padding: 0px 0px;
-    font-size: 8.9em;
-    position: relative;
-    left: -400px;
-    top: -15px;
-}
-
-#logo a
-{
-    text-decoration: none;
-    color: #FFF;
-}
-
-#logo span
-{
-    text-transform: uppercase;
-    font-size: 0.90em;
-    color: rgba(255,255,255,1);
-}
-
-h1
-{
-    position: relative;
-    left: 15%;
-    width: 85%;
-    font-size: 45px;
-    top: 15px;
-
-}
-
-h2
-{
-    position: relative;
-    left: 17%;
-    width: 83%;
-    bottom: 20px;
-    font-size: 30px;
-}
-
-
-
-footer
-{
-    background-color: rgba(0,0,0,.9);
-    height: 270px;
-    width: 100.9%;
-    position: relative;
-    left: -0.5%;
-    top: 10%;
-}
-
-footer h1
-{
-    position: relative;
-    left: 15%;
-    width: 85%;
-    font-size: 45px;
-    top: 15px;
-
-}
-
-footer h2
-{
-    position: relative;
-    left: 10%;
-    width: 83%;
-    top: 15px;
-    font-size: 30px;
-    color: #afafaf;
-}
-
-
-
-.geral
-{
-    height: 100%;
-    position: absolute;
-
-
-}
 
