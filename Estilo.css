@@ -1,5 +1,12 @@
 @media screen and (max-width: 600px)
 {
+    body, html
+    {
+        color: black;
+        background-color: #F3F3F3;
+        height: 100%;
+        font-size: 62.5%;
+    }
     #logo {
         position: relative;
         left: 32.1%;
